@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
   }
@@ -40,20 +41,24 @@
 
   .container {
     display: flex;
+    height: 100%;
   }
 
   .sidebar {
-    width: 200px;
-    background-color: #3d18cf;
-    position: fixed;
-    height: 100%;
-    overflow-y: auto;
+    width: 360px;
+    text-align: center;
+    background-color: #7f75a5;
+    height: 90vh;
+    
   }
 
+  /* #Porque eu preciso colocar uma margin para gerar o espaçamento? */
+
   .content {
-    flex-grow: 1;
+    background-color: aqua;
     padding: 60px;
-    content: ;
+
+
   }
 
   .sidebar ul {
@@ -74,8 +79,5 @@
     color: #666;
   }
 
-  .container text{
 
-  }
   
-</style>
