@@ -10,28 +10,41 @@
 
   h1, h2, h3, h4, h5, h6, p{
   font-family: 'Inter', sans-serif;
+  margin: 0px;
+  }
 
+ 
+
+  p{
+    text-align: justify;
+    text-indent: 24px;
+  }
+
+  p.tag-central{
+    text-indent: 0px;
   }
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #f1f1f1;
-    padding: 10px;
+    padding: 8px 24px;
+   
   }
 
   .logo {
-    font-weight: bold;
+    image-resolution: 88px;
   }
 
   .main-nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
+    gap: 24px;
   }
 
   .main-nav li {
-    margin-left: 10px;
+    margin-left: 16px;
   }
 
   .main-nav a {
@@ -44,25 +57,32 @@
   }
 
   .container {
+
     display: flex;
-    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1440px;
+    height: 607px;
   }
 
   .sidebar {
-    width: 360px;
-    text-align: center;
+    text-align:left;
     background-color: #7f75a5;
-    height: 90vh;
-    
+    width: 80vh;
+    padding-top: 40px;
+    padding-left: 18;    
+    width: 185px;
+    height: 607px;
   }
-
-  /* #Porque eu preciso colocar uma margin para gerar o espaçamento? */
 
   .content {
     background-color: aqua;
-    padding: 60px;
     align-content: center;
     justify-content: center;
+    padding-left: 10%;
+    padding-right: 20%;
 
 
   }
@@ -81,9 +101,82 @@
     color: #333;
   }
 
-  .sidebar a:hover {
-    color: #666;
+.article-central{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 0px; 
+  gap: 16px;
+  width: 1064px;
+  height: 368px;
+}
+
+.escrita-central{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 419px;
+  
+}
+
+
+.image-central{
+  width: 400px;
+  
+}
+
+
+.tag-central{
+  font-family: 'Inter', sans-serif;
+  width: 80px;
+  height: 29px;
+  color: #3526E9;
+}
+
+.titulo-central{
+  width: 419px;
+
+}
+
+.resumo-central{
+  width: 419px;
+  height: 88px;
+  color: #595959;
+  text-indent: 0px;
+}
+
+
+
+.rodape-central{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 22.63px;
+  width: 419px;
+  height: 47.59px;
+}
+
+.escrita-rodape-central{
+
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  width: 419px;
+  height: 368px;
+}
+  .time-central{
+    width: 92px;
+    height: 15px;
+    color: #030080;
   }
 
-
-  
+  .data-central{
+    width: 111px;
+    height: 15px;
+    color: #C0C0C0;
+  }
