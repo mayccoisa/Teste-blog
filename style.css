@@ -1,38 +1,70 @@
-
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
   }
+   :root{
+      font-size:62.5%;
+    }
 
   body {
     margin: 0
     color: #212529;;
   }
 
-  h1, h2, h3, h4, h5, h6, p{
+  h1, h2, h3, h4, h5, h6, p, .textside{
   font-family: 'Inter', sans-serif;
   margin: 0px;
   }
 
- 
-
-  p{
-    text-align: justify;
-    text-indent: 24px;
+/* ----------- Tamanhos de textos ----------- */
+  .textside{
+    font-size:1.6rem ;
+    font-style:normal;
+    text-align: left;
+    font-weight: 600;
   }
 
-  p.tag-central{
+  .text-tag{
+    color: #3526E9;
+    font-weight: 500;
+    font-size: 1.8rem ;
+    font-style: normal;
+    text-align: left;
+  }
+  .text-titulo{
+    font-size:2.8rem ;
+    font-style:normal;
+    text-align: left;
+    font-weight: 700;
+    text-align: justify;
+  }
+  .text-resume{
+    font-weight: 400;
+    font-size:1.6rem ;
+    font-style:normal;
+    text-align: left;
+    color: #595959;
+    text-align: justify;
+    text-indent: 1.8rem;
+  }
+
+/* --------------------------------------------------- */
+
+  
+
+  .tag-central{
     text-indent: 0px;
+    font-size:1.6rem ;
+    font-style:normal;
+    text-align: left;
   }
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #f1f1f1;
-    padding: 1rem 1rem;
+    padding: 2.4rem 1rem;
    
   }
 
@@ -45,10 +77,12 @@
     padding: 0;
     display: flex;
     gap: 1rem;
+    
   }
 
   .main-nav li {
     margin-left: 16rem;
+  
   }
 
   .main-nav a {
@@ -61,23 +95,23 @@
   }
 
   .container {
-    max-width: 84rem;
+    max-width: 1000rem;
     display: flex;
     flex-direction: row;
+    justify-content: left;
     align-items:self-start;
-    padding: 0px;
-    gap: 32px;
-    height: 607px;
+    padding: 0rem .0rem 0rem 4.0rem;
+    background-color:;
+    gap: 3.2rem;
   }
 
   .sidebar {
-    text-align:left;
-    background-color: #7f75a5;
-    width: 80vh;
-    padding-top: 40px;
-    padding-left: 18;    
-    width: 40rem;
-    height: 607px;
+    /* background-color: #7f75a5; */
+    padding-top: 8rem;
+    padding-left: 4rem;
+    width: 24rem;
+    height: 100vh;
+    pad
   }
 
   .content {
@@ -87,13 +121,12 @@
     justify-content: center;
     padding-left: 10%;
     padding-right: 20%;
-
-
   }
 
   .sidebar ul {
     list-style-type: none;
     padding: 0;
+
   }
 
   .sidebar li {
@@ -105,19 +138,32 @@
     color: #333;
   }
 
-.article-central{
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  padding: 0px; 
-  gap: 16px;
-  width: 1064px;
-  padding: 1rem;
-}
 
-.article-central :hover{
+  .org-art{
+    display: flex;
+    flex-direction:column;
+    margin-top: 4.0rem;
+  }
+  
+  .article-central{
+    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 2rem; 
+    gap: 16px;
+    padding: 1rem;
+    /* background-color: blue; */
+    max-width: 180rem;
+  }
+
+.article-central:hover{
   background-color: #ccc7c7;
   border-radius: 0.6rem;
+}
+
+#artigo1{
+  text-decoration: none;
 }
 
 .escrita-central{
@@ -132,7 +178,7 @@
 
 
 .image-central{
-  width: 400px;
+  width: 40rem;
   border: 0.6rem;
 }
 
@@ -145,17 +191,22 @@
 }
 
 .titulo-central{
-  width: 419px;
+  font-size:3.6rem ;
+  font-style:normal;
+  text-align: left;
 
 }
 
 .resumo-central{
-  width: 419px;
-  height: 5rem;
+  font-size:2.4rem ;
+  font-style:normal;
+  text-align: left;
   color: #595959;
   text-indent: 0px;
 }
 
+
+/* Exiir o rodape em algum momento
 
 
 .rodape-central{
@@ -176,15 +227,15 @@
   padding: 0px;
   gap: 48px;
   width: 419px;
+  justify-content: space-between;
 }
   .time-central{
-    width: 92px;
-    
+    size: 0.5rem;
     color: #030080;
   }
 
   .data-central{
-    width: 111px;
     height: 15px;
     color: #C0C0C0;
-  }
+    size: 0.5rem;
+  } */
