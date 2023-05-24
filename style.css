@@ -6,8 +6,7 @@
    :root{
       font-size:62.5%;
     }
-
-  body {
+  .body {
     margin: 0
     color: #212529;;
   }
