@@ -1,6 +1,10 @@
 
+
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
   }
 
   body {
@@ -28,7 +32,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #f1f1f1;
-    padding: 8px 24px;
+    padding: 1rem 1rem;
    
   }
 
@@ -40,11 +44,11 @@
     list-style-type: none;
     padding: 0;
     display: flex;
-    gap: 24px;
+    gap: 1rem;
   }
 
   .main-nav li {
-    margin-left: 16px;
+    margin-left: 16rem;
   }
 
   .main-nav a {
@@ -57,13 +61,12 @@
   }
 
   .container {
-
+    max-width: 84rem;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:self-start;
     padding: 0px;
     gap: 32px;
-    width: 1440px;
     height: 607px;
   }
 
@@ -73,11 +76,12 @@
     width: 80vh;
     padding-top: 40px;
     padding-left: 18;    
-    width: 185px;
+    width: 40rem;
     height: 607px;
   }
 
   .content {
+    display: flex;
     background-color: aqua;
     align-content: center;
     justify-content: center;
@@ -108,7 +112,12 @@
   padding: 0px; 
   gap: 16px;
   width: 1064px;
-  height: 368px;
+  padding: 1rem;
+}
+
+.article-central :hover{
+  background-color: #ccc7c7;
+  border-radius: 0.6rem;
 }
 
 .escrita-central{
@@ -124,14 +133,14 @@
 
 .image-central{
   width: 400px;
-  
+  border: 0.6rem;
 }
 
 
 .tag-central{
   font-family: 'Inter', sans-serif;
-  width: 80px;
-  height: 29px;
+  width: 4rem;
+  height: 2rem;
   color: #3526E9;
 }
 
@@ -142,7 +151,7 @@
 
 .resumo-central{
   width: 419px;
-  height: 88px;
+  height: 5rem;
   color: #595959;
   text-indent: 0px;
 }
@@ -157,7 +166,7 @@
   padding: 0px;
   gap: 22.63px;
   width: 419px;
-  height: 47.59px;
+  height: 1rem;
 }
 
 .escrita-rodape-central{
@@ -167,11 +176,10 @@
   padding: 0px;
   gap: 48px;
   width: 419px;
-  height: 368px;
 }
   .time-central{
     width: 92px;
-    height: 15px;
+    
     color: #030080;
   }
 
