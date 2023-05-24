@@ -7,13 +7,13 @@
       font-size:62.5%;
     }
   .body {
-    margin: 0
+    margin: 0;
     color: #212529;;
   }
 
   h1, h2, h3, h4, h5, h6, p, .textside{
-  font-family: 'Inter', sans-serif;
-  margin: 0px;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
   }
 
 /* ----------- Tamanhos de textos ----------- */
@@ -100,7 +100,6 @@
     justify-content: left;
     align-items:self-start;
     padding: 0rem .0rem 0rem 4.0rem;
-    background-color:;
     gap: 3.2rem;
   }
 
@@ -110,22 +109,12 @@
     padding-left: 4rem;
     width: 24rem;
     height: 100vh;
-    pad
   }
 
-  .content {
-    display: flex;
-    background-color: aqua;
-    align-content: center;
-    justify-content: center;
-    padding-left: 10%;
-    padding-right: 20%;
-  }
 
   .sidebar ul {
     list-style-type: none;
     padding: 0;
-
   }
 
   .sidebar li {
