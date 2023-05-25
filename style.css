@@ -48,6 +48,7 @@
     text-indent: 1.8rem;
   }
 
+
 /* --------------------------------------------------- */
 
   
@@ -90,7 +91,7 @@
   }
 
   .main-nav a:hover {
-    color: #666;
+    color:#7A46CE;
   }
 
   .container {
@@ -121,9 +122,13 @@
     margin-bottom: 10px;
   }
 
-  .sidebar a {
+  .sidebar a{
     text-decoration: none;
     color: #333;
+  }
+  .sidebar a:hover{
+    text-decoration: none;
+    color: #7A46CE;
   }
 
 
@@ -146,7 +151,7 @@
   }
 
 .article-central:hover{
-  background-color: #ccc7c7;
+  color: #7A46CE;
   border-radius: 0.6rem;
 }
 
