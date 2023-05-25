@@ -3,17 +3,27 @@
     margin: 0;
     padding: 0;
   }
-   :root{
+:root{
       font-size:62.5%;
     }
-  .body {
+.body {
     margin: 0;
     color: #212529;;
   }
 
-  h1, h2, h3, h4, h5, h6, p, .textside{
+h1, h2, h3, h4, h5, h6, p, .textside{
     font-family: 'Inter', sans-serif;
     margin: 0px;
+  }
+
+a{
+    text-decoration: none;
+    color: #000;
+  }
+
+a:hover{
+    text-decoration: none;
+    color: #000;
   }
 
 /* ----------- Tamanhos de textos ----------- */
@@ -48,7 +58,11 @@
     text-indent: 1.8rem;
   }
 
-
+.text-header{
+   font-weight: 500;
+    font-size:1.6rem ;
+  
+}
 /* --------------------------------------------------- */
 
   
@@ -64,24 +78,24 @@
     align-items: center;
     justify-content: space-between;
     background-color: #f1f1f1;
-    padding: 2.4rem 1rem;
+    padding: 1.8rem 1rem;
    
   }
 
   .logo {
-    image-resolution: 88px;
+
+    width: 12.8rem;
+    padding: 1.6rem;
   }
 
   .main-nav ul {
     list-style-type: none;
-    padding: 0;
     display: flex;
     gap: 1rem;
-    
   }
 
   .main-nav li {
-    margin-left: 16rem;
+    padding: 1.6vh;
   
   }
 
@@ -139,7 +153,6 @@
   }
   
   .article-central{
-    
     display: flex;
     align-items: flex-start;
     flex-direction: row;
