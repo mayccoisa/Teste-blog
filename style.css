@@ -150,6 +150,7 @@ a:hover{
     display: flex;
     flex-direction:column;
     margin-top: 4.0rem;
+    width: 100%;
   }
   
   .article-central{
