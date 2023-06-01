@@ -15,7 +15,10 @@
     font-family: 'Inter', sans-serif;
     margin: 0px;
   }
-
+  a{
+    text-decoration: none;
+    color: #000;
+  }
  
 /* ----------- Tamanhos de textos ----------- */
   .textside{
@@ -25,13 +28,19 @@
     font-weight: 600;
   }
 
-    p.artigo{
+  .text-header{
+    font-weight: 500;
+     font-size:1.6rem ;
+   
+ }
+
+  p.artigo{
         color: #232323;
         font-weight: 400;
         font-size: 1.8rem ;
         text-align: left;
         line-height: 1.5667;
-    }
+  }
     
  
   .text-titulo{
@@ -90,29 +99,29 @@
     font-style:normal;
     text-align: left;
   }
+
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #f1f1f1;
-    padding: 2.4rem 1rem;
+    padding: 1.8rem 1rem;
    
   }
 
   .logo {
-    image-resolution: 88px;
+    width: 12.8rem;
+    padding: 1.6rem;
   }
 
   .main-nav ul {
     list-style-type: none;
-    padding: 0;
     display: flex;
     gap: 1rem;
-    
   }
 
   .main-nav li {
-    margin-left: 16rem;
+    padding: 1.6vh;
   
   }
 
@@ -122,7 +131,7 @@
   }
 
   .main-nav a:hover {
-    color: #666;
+    color:#7A46CE;
   }
 
   .container {
@@ -133,6 +142,14 @@
     align-items:self-start;
     padding: 0rem .0rem 0rem 4.0rem;
     gap: 3.2rem;
+  }
+
+  .cont-sidebar-org-art{
+    max-width: 1000rem;
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    /* background-color: #7f75a5; */
   }
 
   .sidebar {
@@ -224,6 +241,104 @@
 }
 
 /* -------------------------------------------------------- */
+
+
+/* ---------------- Mobile ------------------- */
+@media only screen and (max-width: 400px) {
+
+  .sidebar {
+    display: none;
+  }
+
+  .container {
+    max-width: 100%;
+    justify-content: flex-start;
+    gap: 3.2rem;
+    padding: 1.8rem;
+  }
+
+  .artigo{
+    flex-direction:column;
+    margin-top: 2.0rem;
+    align-items: flex-start;
+    flex-direction: row;
+    /* background-color: blue; */
+    max-width: 100%;
+  }
+
+  h1.artigo{
+    font-weight: 700;
+    font-size:2.4rem ;
+    font-style:normal;
+    text-align: justify;
+    padding-bottom: 2.4rem;
+  }
+
+  .article-central{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8rem;
+    /* background-color: blue; */
+  }
+
+   .org-art{
+    display: flex;
+    flex-direction:column;
+    margin-top: 4.0rem;
+    width: 100%;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+  }
+
+  .escrita-central{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .text-tag{
+    color: #3526E9;
+    font-weight: 500;
+    font-size: 1.2rem ;
+    font-style: normal;
+    text-align: left;
+    display: none;
+  }
+  .text-titulo{
+    font-size: 1rem;
+    font-style:normal;
+    text-align: left;
+    font-weight: 700;
+    text-align: justify;
+  }
+  .text-resume{
+   display:none;
+  }
+
+  .text-header{
+   font-weight: 500;
+    font-size:1.6rem ;
+  }
+
+  .image-central{
+    width: 100%;
+    border: 0.6rem;
+  }
+
+  .footer{
+    margin-top: 2.4rem;
+  }
+  
+
+}
+
+/* ---------------- Fim Mobile ------------------- */
+
+
 /* Exiir o rodape em algum momento
 
 
