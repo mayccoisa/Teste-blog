@@ -11,7 +11,7 @@
     color: #212529;;
   }
 
-h1, h2, h3, h4, h5, h6, p, .textside{
+h1, h2, h3, h4, h5, h6, p, a, .textside{
     font-family: 'Inter', sans-serif;
     margin: 0px;
   }
@@ -19,6 +19,8 @@ h1, h2, h3, h4, h5, h6, p, .textside{
 a{
     text-decoration: none;
     color: #000;
+    font-weight: 00;
+    font-size: 1.2rem;
   }
 
 a:hover{
@@ -59,8 +61,8 @@ a:hover{
   }
 
 .text-header{
-   font-weight: 500;
-    font-size:1.6rem ;
+  font-weight: 800;
+  font-size: 1.6rem;
   
 }
 /* --------------------------------------------------- */

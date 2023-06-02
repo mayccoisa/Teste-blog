@@ -11,14 +11,16 @@
     color: #212529;;
   }
 
-h1, h2, h3, h4, h5, h6, p, .textside{
+h1, h2, h3, h4, h5, h6, p, a, .textsobre{
     font-family: 'Inter', sans-serif;
     margin: 0px;
   }
 
-a{
+  a{
     text-decoration: none;
     color: #000;
+    font-weight: 00;
+    font-size: 1.2rem;
   }
 
 a:hover{
@@ -200,28 +202,33 @@ a:hover{
 
   .imgperfil{
     width: 100%;
+    max-width: 100%;
   }
 
-    h1{
+  h1{
+    font-weight: 700;
+    font-size:3.2rem ;
+    font-style:normal;
     text-align: left;
-    inline-size: block;
-    }
+    text-align: justify;
+  }
   .content{
-        display: flex;
-        flex-direction:column;
-        margin-top: 4.0rem;
-        width: 100%;
-        align-items: center;
-        gap: 1.6rem;
-        flex-wrap: wrap;
-        justify-content: left;
+      flex-direction:column;
+      margin-top: 4.0rem;
+      padding-left: 2.0rem;
+      padding-right: 2.0rem;
+      width: 100%;
+    
+      gap: 1.6rem;
+      flex-wrap: wrap;
+      justify-content: left;
   }
     .sobre{
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
-    max-width: 70%;
-    margin-top: 2.4rem;
+    max-width: 100%;
+    width: 100%;
   }
   .footer{
     margin-top: 2.4rem;
