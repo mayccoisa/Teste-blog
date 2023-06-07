@@ -1,28 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-   :root{
-      font-size:62.5%;
-    }
-  .body {
-    margin: 0;
-    color: #212529;;
-  }
-
-  h1, h2, h3, h4, h5, h6, p, a, .textside{
-    font-family: 'Inter', sans-serif;
-    margin: 0px;
-  }
-  a{
-    text-decoration: none;
-    color: #000;
-    font-weight: 00;
-    font-size: 1.2rem;
-  }
- 
-/* ----------- Tamanhos de textos ----------- */
+ /* ----------- Tamanhos de textos ----------- */
   .textside{
     font-size:1.6rem ;
     font-style:normal;
@@ -33,7 +9,6 @@
   .text-header{
     font-weight: 500;
      font-size:1.6rem ;
-   
  }
 
   p.artigo{
@@ -43,8 +18,7 @@
         text-align: left;
         line-height: 1.5667;
         text-align: justify;
-  }
-    
+  } 
  
   .text-titulo{
     font-size:2.8rem ;
@@ -53,6 +27,7 @@
     font-weight: 700;
     text-align: justify;
   }
+
   .text-resume{
     font-weight: 400;
     font-size:1.6rem ;
@@ -71,7 +46,6 @@
     text-align: justify;
   }
 
-
   h2.artigo{
     font-weight: 700;
     font-size:3.2rem ;
@@ -85,8 +59,9 @@
     font-size: 1.6em;
     font-style:normal;
     text-align: center;
-    
   }
+
+
 /* --------------------------------------------------- */
 
   .text-artigo{
@@ -102,39 +77,7 @@
     text-align: left;
   }
 
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f1f1f1;
-    padding: 1.8rem 1rem;
-   
-  }
 
-  .logo {
-    width: 12.8rem;
-    padding: 1.6rem;
-  }
-
-  .main-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 1rem;
-  }
-
-  .main-nav li {
-    padding: 1.6vh;
-  
-  }
-
-  .main-nav a {
-    text-decoration: none;
-    color: #333;
-  }
-
-  .main-nav a:hover {
-    color:#7A46CE;
-  }
 
   .container {
     max-width: 100%;
@@ -144,38 +87,19 @@
     align-items:self-start;
     padding: 0rem .0rem 0rem 4.0rem;
     gap: 3.2rem;
+        /* background-color: #7f75a5; */
   }
 
   .cont-sidebar-org-art{
-    max-width: 1000rem;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     align-items: self-start;
+    gap: 3.2rem;
     /* background-color: #7f75a5; */
   }
 
-  .sidebar {
-    /* background-color: #7f75a5; */
-    padding-top: 8rem;
-    padding-left: 4rem;
-    width: 24rem;
-    height: 100vh;
-  }
-
-
-  .sidebar ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .sidebar li {
-    margin-bottom: 10px;
-  }
-
-  .sidebar a {
-    text-decoration: none;
-    color: #333;
-  }
+  
 
 
   .artigo{
@@ -231,18 +155,6 @@
   color: #595959;
   text-indent: 0px;
 }
-
-
-/*--------------------- Footer -------------------------*/
-
-.footer{
-    text-align: center;
-    background-color: #212529;
-    color: white;
-    padding: 1.2rem 1.5rem;
-}
-
-/* -------------------------------------------------------- */
 
 
 /* ---------------- Mobile ------------------- */
@@ -339,38 +251,3 @@
 }
 
 /* ---------------- Fim Mobile ------------------- */
-
-
-/* Exiir o rodape em algum momento
-
-
-.rodape-central{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px;
-  gap: 22.63px;
-  width: 419px;
-  height: 1rem;
-}
-
-.escrita-rodape-central{
-
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 48px;
-  width: 419px;
-  justify-content: space-between;
-}
-  .time-central{
-    size: 0.5rem;
-    color: #030080;
-  }
-
-  .data-central{
-    height: 15px;
-    color: #C0C0C0;
-    size: 0.5rem;
-  } */
