@@ -16,8 +16,7 @@ h1, h2, h3, h4, h5, h6, p, a, .textside{
     margin: 0px;
   }
 
-a{
-    text-decoration: none;
+a{  text-decoration: none;
     color: #000;
     font-weight: 500;
     font-size: 1.6rem;
@@ -87,10 +86,12 @@ a:hover{
     text-decoration: none;
     color: #333;
   }
+  
   .sidebar a:hover{
     text-decoration: none;
     color: #7A46CE;
   }
+
 
 /* -------------Header----------------- */
 .header {
@@ -139,4 +140,8 @@ a:hover{
     padding: 2.5rem 1.5rem;
     max-width: 100%;
   }
+
+p.footer{
+  font-size: 1.0rem;
+}
   
