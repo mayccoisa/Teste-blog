@@ -14,7 +14,16 @@
 h1, h2, h3, h4, h5, h6, p, a, .textside{
     font-family: 'Inter', sans-serif;
     margin: 0px;
+    
   }
+
+h1{
+  font-weight: 700;
+  font-size: 3.2rem;
+  font-style: normal;
+  text-align: left;
+  text-align: justify;
+}
 
 a{  text-decoration: none;
     color: #000;
