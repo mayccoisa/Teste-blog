@@ -79,32 +79,15 @@
 
 
 
-  .container {
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items:self-start;
-    padding: 0rem .0rem 0rem 4.0rem;
-    gap: 3.2rem;
-        /* background-color: #7f75a5; */
-  }
 
-  .cont-sidebar-org-art{
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: self-start;
-    gap: 3.2rem;
-    /* background-color: #7f75a5; */
-  }
+
 
   
 
 
   .artigo{
     flex-direction:column;
-    margin-top: 2.0rem;
+    margin-top: 4.0rem;
     align-items: flex-start;
     flex-direction: row;
     /* background-color: blue; */
