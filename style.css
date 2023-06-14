@@ -7,12 +7,6 @@
     text-align: left;
   }
 
-
- 
-
-
-
-
   .org-art{
     display: flex;
     flex-direction:column;
@@ -81,8 +75,36 @@
 
 
 /* ---------------- Mobile ------------------- */
+
 @media only screen and (max-width: 400px) {
 
+  /* -------------Header----------------- */
+
+.header {
+  /* padding-left: auto; */
+  /* padding-right: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7A46CE;
+  height: 6rem;
+ 
+}
+
+.logo {
+  width: 12.8rem;
+  padding: 1.6rem;
+}
+
+.main-nav ul {
+  display: none;
+}
+
+.main-nav li {
+  display: none;
+}
+
+/* ------------------------------------------------------- */
   .sidebar {
     display: none;
   }

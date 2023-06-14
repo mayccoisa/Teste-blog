@@ -109,7 +109,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f1f1f1;
+    background-color: #7A46CE;
     padding: 1.8rem 1rem;
    
   }
@@ -132,11 +132,11 @@ a:hover{
 
   .main-nav a {
     text-decoration: none;
-    color: #333;
+    color: #fffefe;
   }
 
   .main-nav a:hover {
-    color:#7A46CE;
+    color:#b9b9b9;
   }
 
   /* ------------------------------------------------------- */
@@ -154,9 +154,6 @@ a:hover{
   }
 
 
-
-
-
 /* ---------- Footer ----------------- */
 .footer{
     text-align: center;
@@ -170,3 +167,83 @@ p.footer{
   font-size: 1.0rem;
 }
   
+
+/* ---------------- Mobile ------------------- */
+
+@media only screen and (max-width: 400px) {
+
+  .sidebar {
+    display: none;
+  }
+
+  .container {
+    max-width: 100%;
+    justify-content: flex-start;
+    gap: 3.2rem;
+    padding: 0px;
+    flex-direction: column;
+  }
+
+  .article-central{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.8rem;
+    max-width: 100%;
+    /* background-color: blue; */
+  }
+
+   .org-art{
+    display: flex;
+    flex-direction:column;
+    margin-top: 4.0rem;
+    width: 100%;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+  }
+
+  .escrita-central{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .text-tag{
+    color: #3526E9;
+    font-weight: 500;
+    font-size: 1.2rem ;
+    font-style: normal;
+    text-align: left;
+    display: none;
+  }
+  .text-titulo{
+    font-size:1.8rem ;
+    font-style:normal;
+    text-align: left;
+    font-weight: 700;
+    text-align: justify;
+  }
+  .text-resume{
+   display:none;
+  }
+
+  .text-header{
+   font-weight: 500;
+    font-size:1.6rem ;
+  }
+
+  .image-central{
+    width: 100%;
+    border: 0.6rem;
+  }
+
+  .footer{
+    margin-top: 2.4rem;
+  }
+  
+
+}
+
